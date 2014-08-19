@@ -13,23 +13,25 @@ body {
 	margin-left:auto;
 	margin-top:5px;
 	padding:0px;
-//	style:block
 	overflow:hidden;
 }
 
 H1 {
-/*	color: black; 
+ 	color: black; 
     text-shadow: skyblue 0px 2px, skyblue 2px 0px, skyblue -2px 0px, 
     skyblue 0px -2px, skyblue -1.4px -1.4px, skyblue 1.4px 1.4px, 
     skyblue 1.4px -1.4px, skyblue -1.4px 1.4px; 
-  */  
+   
   color: black;
   
-  text-shadow: #99FFCC 0px 0px 10px 10px; /* for browsers with spread support 
+  text-shadow: #99FFCC 0px 0px 10px 10px; for browsers with spread support 
 }
 
-    
-}
+nav {
+	width:30%;
+	float:right;
+}  
+
 
 	
 footer {
@@ -39,12 +41,7 @@ footer {
 }
 
 
-nav {
-	style:block;
-	padding:10px;
-  width:50%;
-  background-color=#ffffff;
-}
+
 
 nav ul {
   list-style-type:none;
