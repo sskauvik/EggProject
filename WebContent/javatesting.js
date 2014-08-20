@@ -1,6 +1,7 @@
 
 // example
 // 
+/*
 var batwing = {
 	status: "Ready",
 	RescueBatmat: function() {
@@ -21,4 +22,20 @@ var utilities = {
 }
 
 utilities.printAllMembers(batwing);
-document.write("Hello");
+
+*/
+/*
+window.onload = function() {
+var clickMeButton = document.getElementById('ClickMe');
+ClickMeButton.onclick = runTheExample;
+}
+*/
+
+window.onload = function() {
+
+document.getElementById("ClickMe").onclick = runTheExample;
+
+function runTheExample () {
+alert("running the example");
+	}
+}
