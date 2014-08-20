@@ -1,12 +1,12 @@
 
 // example
-alert('hi');
+allert('hi');
 var planet = {
 	id:34,
 	name: "Sigurd Skauvik",
 	faction: [
 		factionId: 2,
-		name: "Mex",
+		name: "Mex"]
 		notification : function() {
 		codument.write("Nex alliance.. unite!");
 		
@@ -22,3 +22,7 @@ var planet = {
 
 planet.faction.notification();
 document.write(planet.cities[1].name);
+
+document.write("<br />" + planet.name);
+planet.name = "Vultus";
+document.write("<br />" + planet.name);
