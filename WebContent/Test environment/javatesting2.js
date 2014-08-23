@@ -1,6 +1,6 @@
 // jQuery baby!
 $(function() {
- alert("This works!");
+ alert("Javascript test v.2 loaded!");
  });
  
  $(function() {
