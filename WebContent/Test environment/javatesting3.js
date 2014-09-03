@@ -1,6 +1,7 @@
 // jQuery baby!
 $(function() {
  alert("Javascript test v.3 loaded!");
+ $('li:even').addClass('highlight');
   });
   
 $(function() {
@@ -18,6 +19,7 @@ $(function() {
 		buildACat();
 	});
 
+	
 });
 
 
