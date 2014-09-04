@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
+<meta charset="UTF-8">
 <script src="test.js"></script>
 <link rel="StyleSheet" type="text/css" href="../style.css">
 <title>PowerShell</title>
@@ -18,13 +18,29 @@
 		<li><a href= "../pages/office.html">Office</a></li>
 		<li><a href= "../pages/support.html">Support</a></li>
 		<li><a href= "../pages/powershell.html">PowerShell</a></li>
-		<li><a href= "../pages/tjenester.html">Tjenester</li>
+		<li><a href= "../pages/tjenester.html">Tjenester</a></li>
 		<br>
 		<li>Tjenester er for tiden gratis, hvis du har opprettet en sak hos meg.</li>
-				
-	
 	</ul>
 	</nav>
+		<section>
+		<article>
+		<hr>
+		<p>Powershell er et verktøy som kommer med windows. Jeg vil her forklare hvordan du setter opp powershell på din maskin.
+		Du må du laste ned siste versjon av Microsoft .NET framework. Her er en link til Microsoft sin offisielle side:
+		<a href="http://www.microsoft.com/nb-no/download/details.aspx?id=30653">.NET framework 4.5</a> 
+		dette er for tiden den nyeste versjonen.
+		Gå på start menyen, velg alle programmer og velg tilbehør. Under mappen PowerShell vil du finne konsollen og noe som heter 
+		PowerShell_ISE. Vi må gjøre et par ting i powershell for å få det til å fungere som det skal. Det første du bør gjøre er å 
+		skrive "get-host" for å se vilken versjon av powershell du har. Har du versjon 4.0 er dette den nyeste per dags dato.
+		For at script kan kjøres på maskinen må du tillate dette ved å skrive "set-executionpolicy -executionpolicy remote-signed"
+		Det vil si at alle script som du har på maskinen, som er signert vil kjøre. Andre script som kan være potensiellt skadelige
+		kommer sansynligvis ikke få lov til å kjøre med denne policy.
+		
+		</article>
+		</section>
+	
+
 	<hr>
 	<footer><a href="mailto:sigurden@outlook.com?subject=Windows Support">Contact by email</a>  (c)Sigurd Skauvik 2014
 	<img src="../images/th.jpg" alt="Microsoft Certified Professional"></footer>
