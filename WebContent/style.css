@@ -16,17 +16,15 @@ body {
 	/*overflow:hidden;
 */}
 
-H1 {
+/*H1 {
  	color: black; 
-    text-shadow: skyblue 0px 2px, skyblue 2px 0px, skyblue -2px 0px, 
-    skyblue 0px -2px, skyblue -1.4px -1.4px, skyblue 1.4px 1.4px, 
-    skyblue 1.4px -1.4px, skyblue -1.4px 1.4px; 
+    text-shadow: 
    
   color: black;
   
   text-shadow: #99FFCC 0px 0px 10px 10px; for browsers with spread support 
 }
-
+*/
 nav {
 	width:30%;
 	float:right;
