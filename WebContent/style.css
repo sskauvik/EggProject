@@ -16,15 +16,17 @@ body {
 	/*overflow:hidden;
 */}
 
-/*H1 {
- 	color: black; 
-    text-shadow: 
-   
-  color: black;
+/*
+H1 {
+  fonts/glyphicons-halflings-regular.ttf 
+
+  color: black; 
+  text-shadow: 
   
   text-shadow: #99FFCC 0px 0px 10px 10px; for browsers with spread support 
-}
-*/
+}*/
+
+
 nav {
 	width:30%;
 	float:right;
