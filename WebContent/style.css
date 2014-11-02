@@ -48,3 +48,15 @@ nav li {
 }
 
 #brd { border: 2px solid red }
+
+
+#pic{
+	height: 1px;
+	width:1px;
+	transition: 2s;
+}
+
+#pic:hover
+	{	
+		transform: scale(2);
+}
